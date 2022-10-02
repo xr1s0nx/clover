@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="RU">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Клевер</title>
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <style>
+            .offer {
+                background-image: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="preloader">
+            <div class="load">
+                <hr />
+                <hr />
+                <hr />
+                <hr />
+            </div>
+        </div>
+        <div class="shadow"></div>
+        <header class="header">
+            <div class="header_bg">
+               <img src="img/header.png" alt="" />
+            </div>
+            <div class="container">
+               <div class="header_inner">
+                  <a href="index.html" class="logo">
+                     <img src="img/logo.png" alt="logo" />
+                  </a>
+                  <div class="nav_toggle">
+                     <span class="nav_toggle-item"></span>
+                  </div>
+                  <nav class="nav">
+                     <div class="header_contacts">
+                        <p>Улан-Удэ</p>
+                        <a href="#"> +7 (3012) 58-14-20</a>
+                        <a href="#"> 58-14-30 </a>
+                     </div>
+                     <div class="header_contacts">
+                        <p>Иркутск</p>
+                        <a href="#"> +7 (3952) 48-63-62</a>
+                        <a href="#"> 64-04-09 </a>
+                     </div>
+                     <ul>
+                        <a href="#" class="phone">
+                           <img src="img/phone.png" alt="phone" />
+                        </a>
+                        <div class="rightSide-nav">
+                           <div class="li-nav">
+                              <li class="firstLi">
+                                 <a href="#">Каталог</a>
+                              </li>
+                              <li>
+                                 <a href="#">Услуги</a>
+                              </li>
+                              <li>
+                                 <a href="#">О компании</a>
+                              </li>
+                              <li>
+                                 <a href="#">Контакты</a>
+                              </li>
+                           </div>
+                           <div class="nav-btns">
+                              <a href="#" class="nav-btn">
+                                 <img src="img/basket.png" alt="" />
+                              </a>
+                              <a href="#" class="nav-btn">
+                                 <img src="img/profile.png" alt="" />
+                              </a>
+                           </div>
+                        </div>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="header_info">
+                  <div class="header_left" data-aos="fade-right">
+                     <p class="header_text">
+                        <strong> Широкий ассортимент </strong>
+                        изделий из картона и альтернативной упаковки
+                     </p>
+                     <a href="index.html#benefits" class="header_production"
+                        ><p>О компании</p>
+                        <div class="img-block">
+                           <img src="img/btn-arrow.png" alt="" class="arrow" />
+                        </div>
+                     </a>
+                  </div>
+                  <div class="header_right">
+                     <img class="img_block" src="img/box.png" alt="box" data-aos="fade-up" data-aos-delay="300" />
+                     <a href="#offer" class="player_info" data-aos="fade-left" data-aos-delay="500">
+                        <div class="player_info_play">
+                           <img src="img/play.png" alt="play" />
+                        </div>
+                        <div class="player_info_descr" style="background-image: url(img/process.png)">
+                           <p>Перейти к каталогу продукции</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </header>
+        <main>
+            <section class="offer product" id="offer">
+                <div class="container">
+                    <span class="rotate_text">ПРОДУКЦИя</span>
+                    <h2 class="title" data-aos="fade-down">НАША ПРОДУКЦИЯ</h2>
+                    <div class="offer_inner">
+                        <div class="offer_tab">
+                            <span class="active" data-filter="info_1"
+                                >КАРТОН</span
+                            >
+                            <span data-filter="info_2">ГОФРОКАРТОН</span>
+                            <span data-filter="info_3">КАРТОННЫЕ КОРОБКИ</span>
+                            <span data-filter="info_4">БУМАЖНЫЕ МЕШКИ</span>
+                            <span data-filter="info_5">БУМАГА В РУЛОНАХ</span>
+                            <span data-filter="info_6">БУМАЖНЫЕ ПАКЕТЫ</span>
+                        </div>
+                        <div class="offer_info">
+                            <p class="undertext active" data-cat="info_1">
+                                Общие технические условия отвечают положениям
+                                ГОСТа 24370–80, пакеты бумажные используются для
+                                упаковки штучных и сыпучих товаров различного
+                                назначения (как правило, это бумажные пакеты для
+                                продуктов). Могут быть открытыми или закрытыми с
+                                прямым дном, с клапаном и фальцами, с
+                                шестиугольным или прямоугольным дном.
+                                Применяются в торговле, пищевой промышленности,
+                                используются компаниями по производству
+                                бижутерии и алкогольной продукции.
+                                <br /><br />
+                                Бумажные пакеты во многих европейских странах
+                                рекомендованы к замене полиэтиленовых на
+                                законодательном уровне. Они не загрязняют
+                                окружающую среду, пригодны к повторной
+                                переработку на целлюлозных предприятиях.
+                            </p>
+                            <p class="undertext" data-cat="info_2">
+                                2 Общие технические условия отвечают положениям
+                                ГОСТа 24370–80, пакеты бумажные используются для
+                                упаковки штучных и сыпучих товаров различного
+                                назначения (как правило, это бумажные пакеты для
+                                продуктов). Могут быть открытыми или закрытыми с
+                                прямым дном, с клапаном и фальцами, с
+                                шестиугольным или прямоугольным дном.
+                                Применяются в торговле, пищевой промышленности,
+                                используются компаниями по производству
+                                бижутерии и алкогольной продукции.
+                                <br /><br />
+                                Бумажные пакеты во многих европейских странах
+                                рекомендованы к замене полиэтиленовых на
+                                законодательном уровне. Они не загрязняют
+                                окружающую среду, пригодны к повторной
+                                переработку на целлюлозных предприятиях.
+                            </p>
+                            <p class="undertext" data-cat="info_3">
+                                3 Общие технические условия отвечают положениям
+                                ГОСТа 24370–80, пакеты бумажные используются для
+                                упаковки штучных и сыпучих товаров различного
+                                назначения (как правило, это бумажные пакеты для
+                                продуктов). Могут быть открытыми или закрытыми с
+                                прямым дном, с клапаном и фальцами, с
+                                шестиугольным или прямоугольным дном.
+                                Применяются в торговле, пищевой промышленности,
+                                используются компаниями по производству
+                                бижутерии и алкогольной продукции.
+                                <br /><br />
+                                Бумажные пакеты во многих европейских странах
+                                рекомендованы к замене полиэтиленовых на
+                                законодательном уровне. Они не загрязняют
+                                окружающую среду, пригодны к повторной
+                                переработку на целлюлозных предприятиях.
+                            </p>
+                            <p class="undertext" data-cat="info_4">
+                                4 Общие технические условия отвечают положениям
+                                ГОСТа 24370–80, пакеты бумажные используются для
+                                упаковки штучных и сыпучих товаров различного
+                                назначения (как правило, это бумажные пакеты для
+                                продуктов). Могут быть открытыми или закрытыми с
+                                прямым дном, с клапаном и фальцами, с
+                                шестиугольным или прямоугольным дном.
+                                Применяются в торговле, пищевой промышленности,
+                                используются компаниями по производству
+                                бижутерии и алкогольной продукции.
+                                <br /><br />
+                                Бумажные пакеты во многих европейских странах
+                                рекомендованы к замене полиэтиленовых на
+                                законодательном уровне. Они не загрязняют
+                                окружающую среду, пригодны к повторной
+                                переработку на целлюлозных предприятиях.
+                            </p>
+                            <p class="undertext" data-cat="info_5">
+                                5 Общие технические условия отвечают положениям
+                                ГОСТа 24370–80, пакеты бумажные используются для
+                                упаковки штучных и сыпучих товаров различного
+                                назначения (как правило, это бумажные пакеты для
+                                продуктов). Могут быть открытыми или закрытыми с
+                                прямым дном, с клапаном и фальцами, с
+                                шестиугольным или прямоугольным дном.
+                                Применяются в торговле, пищевой промышленности,
+                                используются компаниями по производству
+                                бижутерии и алкогольной продукции.
+                                <br /><br />
+                                Бумажные пакеты во многих европейских странах
+                                рекомендованы к замене полиэтиленовых на
+                                законодательном уровне. Они не загрязняют
+                                окружающую среду, пригодны к повторной
+                                переработку на целлюлозных предприятиях.
+                            </p>
+                            <p class="undertext" data-cat="info_6">
+                                6 Общие технические условия отвечают положениям
+                                ГОСТа 24370–80, пакеты бумажные используются для
+                                упаковки штучных и сыпучих товаров различного
+                                назначения (как правило, это бумажные пакеты для
+                                продуктов). Могут быть открытыми или закрытыми с
+                                прямым дном, с клапаном и фальцами, с
+                                шестиугольным или прямоугольным дном.
+                                Применяются в торговле, пищевой промышленности,
+                                используются компаниями по производству
+                                бижутерии и алкогольной продукции.
+                                <br /><br />
+                                Бумажные пакеты во многих европейских странах
+                                рекомендованы к замене полиэтиленовых на
+                                законодательном уровне. Они не загрязняют
+                                окружающую среду, пригодны к повторной
+                                переработку на целлюлозных предприятиях.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product_inner">
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="card" data-aos="zoom-in">
+                            <div class="card_info">
+                                <p class="card_title">КАРТОН SBB (SBS)</p>
+                                <div class="card_img">
+                                    <img src="img/card-1.png" alt="card" />
+                                </div>
+                                <p class="text">340 руб/m2</p>
+                            </div>
+                            <a href="#calculator" class="btn">ПОЛУЧИТЬ РАСЧЕТ</a>
+                        </div>
+                        <div class="pagination">
+                            <a href="#">НАЗАД</a>
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">ДАЛЕЕ</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="calculator" id="calculator">
+                <img src="img/box-2.png" alt="box" class="calculator_box" />
+                <div class="calculator_inner">
+                    <h2 class="calculator_title" data-aos="fade-down">
+                        Расчитайте нужное вам <br />
+                        количество наименований <br />
+                        и закажите
+                    </h2>
+                    <a href="#" class="calculator_btn">
+                        <img src="img/calc.svg" alt="calculator" />
+                        <span>ПОЛУЧИТЬ РАСЧЕТ</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+               <div class="footer_inner">
+                  <div class="footer_left">
+                     <div class="footer_info">
+                        <nav class="footer_nav">
+                           <ul>
+                              <li>
+                                 <a href="index.html#production">Каталог</a>
+                              </li>
+                              <li>
+                                 <a href="index.html#services">Услуги</a>
+                              </li>
+                              <li>
+                                 <a href="index.html#benefits"> О компании</a>
+                              </li>
+                              <li>
+                                 <a href="index.html#news">Новости</a>
+                              </li>
+                           </ul>
+                        </nav>
+   
+                        <div class="footer_contacts">
+                           <p>
+                              <img src="img/phone-2.svg" alt="phone" />
+                              <span style="margin-right: 10px;">Улан-Удэ</span>
+                              <a href="+73012581420">  +7 (<span>3012</span>) 58-14-20, </a>
+                              <a href="+73012581430">58-14-30</a>
+                           </p>
+                           <p>
+                              <img src="img/phone-2.svg" alt="phone" />
+                              <span style="margin-right: 19px;">Иркутск</span>
+                              <a href="tel:+73952486362">  +7 (<span>3952</span>) 48-63-62, </a>
+                              <a href="tel:+73952640409">64-04-09</a>
+                           </p>
+                           <p>
+                              <img src="img/email.svg" alt="email" />
+                              <a href="mailto:username@gmail.com" style="text-decoration: underline 1px solid #54a143"> username@gmail.com </a>
+                           </p>
+                           <p>
+                              <img src="img/timeWork.png" alt="email" />
+                              <a href="#"> Пн-пт: 8:00 - 17:00 Сб-вс: выходной </a>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="footer_left_policy">
+                        <a href="#" class="policy"> Политика конфиденциальности </a>
+                     </div>
+                  </div>
+   
+                  <div class="footer_right">
+                     <a href="index.html" class="logo">
+                        <img src="img/logo-2.png" alt="logo" />
+                     </a>
+                     <div class="footer_social">
+                        <a href="#">
+                           <img src="img/social-1.png" alt="vkontakte" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-2.png" alt="youtube" />
+                        </a>
+                        <a href="#">
+                           <img src="img/social-3.png" alt="pinterest" />
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+        <div class="call_modal">
+            <div class="close">&times;</div>
+            <form class="call_modal_inner">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="AA-CLEVER" />
+                <input
+                    type="hidden"
+                    name="admin_email"
+                    value="info@aa-klever.ru"
+                />
+                <input
+                    type="hidden"
+                    name="form_subject"
+                    value="Обратный звонок"
+                />
+                <!-- END Hidden Required Fields -->
+                <h3 class="call_title">Оставьте заявку</h3>
+                <input type="tel" name="Телефон" placeholder="Телефон" />
+                <input type="email" name="Email" placeholder="Email" />
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            window.onload = function () {
+               document.querySelector(".preloader").classList.add("active");
+            };
+         </script>
+    </body>
+</html>
